@@ -13,7 +13,7 @@ const pets = [
       color: "Brown",
       specialSkill: "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
       type: "dino",
-      imageUrl: "http://www.jozilife.co.za/wp-content/uploads/The-Dino-Expo.jpg",
+      imageUrl: "https://nerdbot.com/wp-content/uploads/2019/03/VELOCIRAPTOR-JURASSIC-PARK-800x0-c-default.jpg?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-2",
     },
     {
       id: 3,
@@ -61,7 +61,7 @@ const pets = [
       color: "Grey",
       specialSkill: "Comfortable in the outdoors for up to eight hours.",
       type: "dino",
-      imageUrl: "http://www.theouthousers.com/images/jck//ThanosCopter/news/grumpasaur.jpg"
+      imageUrl: "https://images.unsplash.com/photo-1633876204719-dd74580764ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
     },
     {
       id: 9,
@@ -240,3 +240,56 @@ const pets = [
       imageUrl: "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119"
     }
   ];
+
+  for (let i = 0; i < pets.length; i++) {
+    console.log(pets[i].id)
+  }
+
+  for (let i = 0; i < pets.length; i++) {
+    console.log(pets[i].name)
+  }
+
+  for (let i = 0; i < pets.length; i++) {
+    console.log(pets[i].color)
+  }
+
+  for (let i = 0; i < pets.length; i++) {
+    console.log(pets[i].specialSkill)
+  }
+
+  for (let i = 0; i < pets.length; i++) {
+    console.log(pets[i].type)
+  }
+
+  for (let i = 0; i < pets.length; i++) {
+    console.log(pets[i].imageUrl)
+  }
+
+
+
+const rootDiv = document.getElementById("root");
+
+for (let i = 0; i < pets.length; i++) {
+  const pet = pets[i]
+  const cardString = `
+  <div class="card">
+    <h3 class="card-header">${pet.name}</h3>
+    <div class="card-body">
+      <img src="${pet.imageUrl}" class="card-img-bottom" alt="Photo of ${pet.name} the ${pet.type}">
+      <h5 class="card-title">${pet.color}</h5>
+      <p class="card-text">${pet.specialSkill}</p>
+    </div>
+    <h4 class="pet-type ${pet.type} filterDiv ${pet.type}">${pet.type}</h4>
+  </div>
+  `;
+  rootDiv.innerHTML += cardString;
+}
+
+
+//<div class="card" id="demo-card">
+//<div class="pet-name">${pet.name}</div>
+//<div class="card-image"><img src="${pet.imageUrl}"/></div>
+//<div class="pet-color">${pet.color}</div>
+//<div class="special-skill">${pet.specialSkill}</div>
+//<div class="pet-type">${pet.type}</div>
+//</div>
