@@ -57,3 +57,16 @@ h4 {
   color: darkorange;
   padding: 5px;
 }
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 2%;
+}
+
+.columns > * {
+  flex: 0 1 25%;
+  margin-bottom: 1%;
+  justify-content: center;
+}
