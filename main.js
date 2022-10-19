@@ -81,11 +81,11 @@ const pets = [
     },
     {
       id: 11,
-      name: "Coco",
+      name: "Spike",
       color: "Orange",
       specialSkill: "Can be around food without staring creepily at it.",
       type: "dino",
-      imageUrl: "http://www.cantref.com/userfiles/events/walking%20dino.jpg?w=600"
+      imageUrl: "https://assets.mycast.io/actor_images/actor-spike-the-land-before-time-170437_large.jpg?1611939911"
     },
     {
       id: 12,
@@ -121,11 +121,11 @@ const pets = [
     },
     {
       id: 16,
-      name: "Smokey",
+      name: "Ducky",
       color: "Brown",
       specialSkill: "Drives at a safe rate of speed in snow or rain.",
       type: "dino",
-      imageUrl: "https://images.readwrite.com/wp-content/uploads/2018/03/t-rex-dino-quiz-e1490854556549.jpg"
+      imageUrl: "https://assets.mycast.io/actor_images/actor-ducky-170434_large.jpg?1611939573"
     },
     {
      id: 17,
@@ -133,15 +133,15 @@ const pets = [
       color: "Yellow",
       specialSkill: "Does not freak out if you haven’t seen his favorite movie (The Big Lebowski).",
       type: "cat",
-      imageUrl: "http://www.funnycatsite.com/pictures/Close_Up_Yawn.jpg"
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/440px-Cat03.jpg"
     },
     {
       id: 18,
-      name: "Salem",
+      name: "Petrie",
       color: "Brown",
       specialSkill: "Proficient in air guitar",
       type: "dino",
-      imageUrl: "https://www.nation.co.ke/image/view/-/4078922/highRes/1742693/-/maxw/600/-/1453yvh/-/DINO.jpg"
+      imageUrl: "https://assets.mycast.io/characters/petrie-286799-normal.jpg?1625344376"
     },
     {
       id: 19,
@@ -149,7 +149,7 @@ const pets = [
       color: "Blue",
       specialSkill: "Listens attentively to boring stories.",
       type: "dog",
-      imageUrl: "http://dailynewsdig.com/wp-content/uploads/2014/03/Creative-And-Funny-Dog-Stock-Photography-Pictures-2.jpg"
+      imageUrl: "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg"
     },
     {
       id: 20,
@@ -157,15 +157,15 @@ const pets = [
       color: "Black",
       specialSkill: "Uses litter box at appropriate hours.",
       type: "cat",
-      imageUrl: "http://www.funnycatsite.com/pictures/Lazy_White_Cat.jpg"
+      imageUrl: "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WALN4MAIT4I6VLRIPUMJQAJIME.jpg&w=916"
     },
     {
       id: 21,
-      name: "Miss kitty",
+      name: "Miss Kitty",
       color: "Red",
       specialSkill: "Owns a Nintendo Power Glove.",
       type: "dino",
-      imageUrl: "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/12/enhanced/webdr15/anigif_enhanced-29802-1446485228-10.gif?crop=250:165;0,0&downsize=715"
+      imageUrl: "https://sm.mashable.com/t/mashable_sea/photo/default/cover_kqfc.2496.png"
     },
     {
         id: 22,
@@ -173,7 +173,7 @@ const pets = [
       color: "Orange",
       specialSkill: "Is comfortable with jokes about his receding hairline.",
       type: "cat",
-      imageUrl: "http://funnyanimalphoto.com/wp-content/uploads/2013/08/cat_caught_mouse_thegatewaypundit.jpg"
+      imageUrl: "https://media.npr.org/assets/img/2022/07/13/ap22194581263412_custom-d6464f6438abdb0983fb8c47a51fe2c7dc146de1-s1600-c85.webp"
     },
     {
         id: 23,
@@ -189,7 +189,7 @@ const pets = [
       color: "Brown",
       specialSkill: "Participates in karaoke but does not force others to go out to karaoke.",
       type: "dog",
-      imageUrl: "http://www.dogbreedplus.com/dog_breeds/images/basset-hound-4.jpg"
+      imageUrl: "https://www.thesprucepets.com/thmb/As-2AnSopdDBLeE9aytuwWOLBe8=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cute-teacup-dog-breeds-4587847-hero-4e1112e93c68438eb0e22f505f739b74.jpg"
     },
     {
       id: 25,
@@ -197,7 +197,7 @@ const pets = [
       color: "Red",
       specialSkill: "Knows the words to 4 rap songs.",
       type: "cat",
-      imageUrl: "http://funbk.s3.amazonaws.com/wp-content/uploads/2016/06/funny-cat-video-which-will-make-you-laugh-louder.jpg"
+      imageUrl: "https://i.cbc.ca/1.6521149.1657922869!/fileImage/httpImage/image.jpg_gen/derivatives/original_1180/a-beginner-s-guide-to-walking-your-cat.jpg"
     },
     {
         id: 26,
@@ -233,59 +233,16 @@ const pets = [
     },
     {
         id: 30,
-      name: "Lucy",
+      name: "Bessie",
       color: "Red",
       specialSkill: "Doesn’t get weirded out by the word “moist.”",
       type: "dino",
-      imageUrl: "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119"
+      imageUrl: "https://s.abcnews.com/images/Entertainment/jurassic-brontosaurus-scene-gty-ps-180521_hpEmbed_21x13_992.jpg"
     }
   ];
 
-  // for (let i = 0; i < pets.length; i++) {
-  //   console.log(pets[i].id)
-  // }
-
-  // for (let i = 0; i < pets.length; i++) {
-  //   console.log(pets[i].name)
-  // }
-
-  // for (let i = 0; i < pets.length; i++) {
-  //   console.log(pets[i].color)
-  // }
-
-  // for (let i = 0; i < pets.length; i++) {
-  //   console.log(pets[i].specialSkill)
-  // }
-
-  // for (let i = 0; i < pets.length; i++) {
-  //   console.log(pets[i].type)
-  // }
-
-  // for (let i = 0; i < pets.length; i++) {
-  //   console.log(pets[i].imageUrl)
-  // }
-
-
 
 const rootDiv = document.getElementById("root");
-
-const form = document.querySelector('form');
-
-for (let i = 0; i < pets.length; i++) {
-  const pet = pets[i]
-  const cardString = `
-  <div class="card">
-    <h3 class="card-header">${pet.name}</h3>
-    <div class="card-body">
-      <img src="${pet.imageUrl}" class="card-img-bottom" alt="Photo of ${pet.name} the ${pet.type}">
-      <h5 class="card-title">${pet.color}</h5>
-      <p class="card-text">${pet.specialSkill}</p>
-    </div>
-    <h4 class="pet-type ${pet.type} filterDiv ${pet.type}">${pet.type}</h4>
-  </div>
-  `;
-  rootDiv.innerHTML += cardString;
-}
 
 const renderToDom = (divId, htmlToRender) => {
   const selectedDiv = document.querySelector(divId);
@@ -304,13 +261,14 @@ const petsOnDom = (array) => {
       <p class="card-text">${pet.specialSkill}</p>
     </div>
     <h4 class="${pet.type}">${pet.type}</h4>
+    <button class="btn btn-danger" id="delete--${pet.id}" style="width: 100%">Delete</button>
   </div>
     `
   }
   renderToDom("#root", petString)
 }
 
-
+petsOnDom(pets);
 
 const filter = (pets, type) => {
   const filterPetsArray = [];
@@ -362,4 +320,23 @@ const newPet = (event) => {
   form.reset();
 }
 
+const form = document.querySelector('form');
+
 form.addEventListener('submit', newPet);
+
+rootDiv.addEventListener('click', (e) => {
+  
+  if (e.target.id.includes("delete")) {
+    const [, id] = e.target.id.split("--");
+    const index = pets.findIndex(e => e.id === Number(id));
+    pets.splice(index, 1);
+    petsOnDom(pets);
+  }
+});
+
+const startApp = () => {
+  petsOnDom(team);
+}
+
+
+startApp();

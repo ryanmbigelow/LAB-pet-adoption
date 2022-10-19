@@ -9,18 +9,9 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <div class="buttons">
+  <h1>Welcome to NSS Adopt a Pet!</h1>
 
-    <button type="button" class="btn btn-primary btn-lg" id="showDogs" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1.5rem; background-color: darkgreen; color: white;">Dogs</button>
-
-    <button type="button" class="btn btn-primary btn-lg" id="showCats" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1.5rem; background-color: darkblue; color: white;">Cats</button>
-
-    <button type="button" class="btn btn-primary btn-lg" id="showDinos" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1.5rem; background-color: darkorange; color: white;">Dinos</button>
-
-    <button type="button" class="btn btn-primary btn-lg" id="showAll" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1.5rem; background-color: purple; color: white;">All Pets</button>
-    
-  </div>
-
+  <h2>Submit a pet</h2>
   <div>
     <form>
       <div class="form-floating mb-3">
@@ -43,8 +34,20 @@
         <input type="url" class="form-control" id="imageUrl" placeholder="name@example.com">
         <label for="floatingInput">Image URL</label>
       </div>
-      <button type="submit" class="btn btn-success" id="form-submit">Add Pet</button>
+      <button type="submit" class="btn btn-success" id="form-submit" style="height: 57.5px;">Add Pet</button>
     </form>
+  </div>
+  
+  <div class="buttons">
+
+    <button type="button" class="btn btn-primary btn-lg" id="showDogs" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1.5rem; background-color: darkgreen; color: white;">Dogs</button>
+
+    <button type="button" class="btn btn-primary btn-lg" id="showCats" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1.5rem; background-color: darkblue; color: white;">Cats</button>
+
+    <button type="button" class="btn btn-primary btn-lg" id="showDinos" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1.5rem; background-color: darkorange; color: white;">Dinos</button>
+
+    <button type="button" class="btn btn-primary btn-lg" id="showAll" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1.5rem; background-color: purple; color: white;">All Pets</button>
+    
   </div>
 
   <div id="root" class="columns"></div>
