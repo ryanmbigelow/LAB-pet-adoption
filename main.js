@@ -335,7 +335,7 @@ rootDiv.addEventListener('click', (e) => {
 });
 
 const startApp = () => {
-  petsOnDom(team);
+  petsOnDom(pets);
 }
 
 
